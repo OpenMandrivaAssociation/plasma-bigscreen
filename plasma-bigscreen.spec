@@ -30,6 +30,7 @@ BuildRequires:	pkgconfig(wayland-scanner)
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	pkgconfig(Qt5DBus)
 BuildRequires:	pkgconfig(Qt5Gui)
+BuildRequires:	pkgconfig(Qt5Multimedia)
 BuildRequires:	pkgconfig(Qt5Test)
 BuildRequires:	pkgconfig(Qt5X11Extras)
 BuildRequires:	cmake(PlasmaWaylandProtocols) >= 1.4.0
