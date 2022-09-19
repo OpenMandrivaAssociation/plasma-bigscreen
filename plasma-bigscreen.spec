@@ -36,10 +36,12 @@ BuildRequires:	pkgconfig(Qt5X11Extras)
 BuildRequires:	cmake(PlasmaWaylandProtocols) >= 1.4.0
 BuildRequires:	pkgconfig(Qt5WaylandClient)
 BuildRequires:	qt5-qtwayland
-Requires: %{name}-frontend = %{EVRD}
+BuildRequires:	qml(org.kde.plasma.core)
+Requires:	qml(org.kde.plasma.core)
+Requires:	%{name}-frontend = %{EVRD}
 
 %description
-A privacy-respecting, open source and secure TV ecosystem
+A privacy-respecting, open source and secure TV ecosystem.
 
 %package wayland
 Summary:	Wayland support for plasma-bigscreen
@@ -56,11 +58,10 @@ Wayland support for plasma-bigscreen
 
 %package x11
 Summary:	X11 support for plasma-bigscreen
-Provides:	%{name}-frontend = %{EVRD}
 Requires:	%{name} = %{EVRD}
 
 %description x11
-X11 support for plasma-bigscreen
+X11 support for plasma-bigscreen.
 
 %files x11
 %{_datadir}/xsessions/plasma-bigscreen-x11.desktop
