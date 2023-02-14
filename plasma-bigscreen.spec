@@ -2,7 +2,7 @@
 
 Summary:	A privacy-respecting, open source and secure TV ecosystem
 Name:		plasma-bigscreen
-Version:	5.26.5
+Version:	5.27.0
 Release:	1
 License:	LGPL
 Group:		System/Libraries
@@ -81,12 +81,8 @@ X11 support for plasma-bigscreen.
 %{_datadir}/metainfo/org.kde.plasma.mycroft.bigscreen.metainfo.xml
 %{_datadir}/metainfo/org.kde.plasma.mycroft.bigscreen.appdata.xml
 %{_datadir}/kservices5/plasma-lookandfeel-org.kde.plasma.mycroft.bigscreen.desktop
-%{_datadir}/kservices5/bigscreensettings.desktop
-%{_datadir}/kservices5/kcm_mediacenter_audiodevice.desktop
 %{_datadir}/kservices5/plasma-applet-org.kde.mycroft.bigscreen.homescreen.desktop
-%{_datadir}/kservices5/mediacenter_wifi.desktop
 %{_datadir}/kservices5/plasma-applet-org.kde.plasma.mycroft.bigscreen.desktop
-%{_datadir}/kservices5/mediacenter_kdeconnect.desktop
 %{_datadir}/sounds/plasma-bigscreen
 %{_bindir}/mycroft-skill-launcher.py
 %{_libdir}/qt5/qml/org/kde/mycroft
