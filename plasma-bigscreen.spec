@@ -23,7 +23,7 @@ BuildRequires:	cmake(KF5PlasmaQuick)
 BuildRequires:	cmake(KF5KIO)
 BuildRequires:	cmake(KF5Wayland)
 BuildRequires:	cmake(KF5WindowSystem)
-BuildRequires:	cmake(LibKWorkspace)
+BuildRequires:	cmake(LibKWorkspace) < 5.27.50
 BuildRequires:	cmake(QtWaylandScanner)
 BuildRequires:	cmake(WaylandScanner)
 BuildRequires:	pkgconfig(wayland-scanner)
