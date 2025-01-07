@@ -2,8 +2,8 @@
 
 Summary:	A privacy-respecting, open source and secure TV ecosystem
 Name:		plasma-bigscreen
-Version:	5.27.11
-Release:	2
+Version:	5.27.12
+Release:	1
 License:	LGPL
 Group:		System/Libraries
 Url:		https://plasma-bigscreen.org/
