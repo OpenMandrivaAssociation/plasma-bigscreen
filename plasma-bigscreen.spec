@@ -34,6 +34,7 @@ BuildRequires:	cmake(KF6DBusAddons)
 BuildRequires:	cmake(KF6IconThemes)
 BuildRequires:	cmake(KF6Screen)
 BuildRequires:	cmake(Plasma)
+BuildRequires:	%{_libdir}/cmake/Plasma/PlasmaConfig.cmake
 BuildRequires:	cmake(PlasmaActivities)
 BuildRequires:	cmake(PlasmaActivitiesStats)
 BuildRequires:	cmake(LibKWorkspace)
