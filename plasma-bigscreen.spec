@@ -41,6 +41,8 @@ BuildRequires:	cmake(LibKWorkspace)
 BuildRequires:	cmake(QCoro6)
 BuildRequires:	cmake(PlasmaWaylandProtocols)
 BuildRequires:	cmake(Wayland)
+BuildRequires:	pkgconfig(wayland-client)
+BuildRequires:	pkgconfig(wayland-server)
 BuildRequires:	pkgconfig(sdl3)
 
 BuildSystem:	cmake
