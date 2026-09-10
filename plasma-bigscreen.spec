@@ -59,14 +59,17 @@ A 10-foot user interface for TVs and set-top boxes, built on Plasma.
 %files -f %{name}.lang
 %{_bindir}/plasma-bigscreen*
 %{_datadir}/wayland-sessions/plasma-bigscreen*
-%{_datadir}/applications/org.kde.plasma.bigscreen*
-%{_datadir}/applications/org.kde.bigscreen*
+%{_datadir}/applications/plasma-bigscreen-swap-session.desktop
+%{_datadir}/applications/org.kde.plasma.bigscreen.*
+%{_datadir}/applications/kcm_mediacenter_*
 %{_datadir}/metainfo/org.kde.plasma.bigscreen.metainfo.xml
-%{_datadir}/plasma/shells/org.kde.plasma.bigscreen*
-%{_datadir}/plasma/plasmoids/org.kde.*bigscreen*
-%{_datadir}/plasma/plasmoids/org.kde.biglauncher*
-%{_datadir}/plasma/look-and-feel/org.kde.plasma.bigscreen*
-%{_datadir}/plasma/look-and-feel/org.kde.plasma.mycroft.bigscreen*
+%{_datadir}/plasma/shells/org.kde.plasma.bigscreen
+%{_datadir}/plasma/plasmoids/org.kde.bigscreen.homescreen
+%{_datadir}/plasma/look-and-feel/org.kde.plasma.bigscreen
 %{_datadir}/sounds/plasma-bigscreen
 %{_datadir}/dbus-1/interfaces/org.kde.biglauncher.xml
+%{_qtdir}/plugins/plasma/applets/org.kde.bigscreen.homescreen.so
+%{_qtdir}/plugins/plasma/kcms/systemsettings/kcm_mediacenter_*
+%{_qtdir}/plugins/kf6/kded/kded_plasma_bigscreen_start.so
+%{_qtdir}/qml/org/kde/bigscreen
 %{_libdir}/udev/rules.d/40-uinput.rules
