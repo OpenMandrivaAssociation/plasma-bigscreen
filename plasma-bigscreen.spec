@@ -4,7 +4,7 @@
 Summary:	A privacy-respecting, open source and secure TV ecosystem
 Name:		plasma-bigscreen
 Version:	6.7.5
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/KDE
 URL:		https://plasma-bigscreen.org/
