@@ -44,6 +44,8 @@ BuildRequires:	cmake(Wayland)
 BuildRequires:	pkgconfig(wayland-client)
 BuildRequires:	pkgconfig(wayland-server)
 BuildRequires:	pkgconfig(sdl3)
+# ecm_find_qmlmodule(org.kde.kdeconnect) is required. The module is in kdeconnect.
+BuildRequires:	qml(org.kde.kdeconnect)
 
 BuildSystem:	cmake
 BuildOption:	-DBUILD_TESTING:BOOL=OFF
